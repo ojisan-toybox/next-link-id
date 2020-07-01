@@ -30,6 +30,32 @@ export default () => {
           </div>
         );
       })}
+      <hr></hr>
+      <h2>linkを使わずにrouterでjump(ただしcardはapi取得）</h2>
+      {ids.map((id) => {
+        return (
+          <div
+            onClick={() => {
+              router.push(`/apiCards#${id}`);
+            }}
+          >
+            {id}へJUMP
+          </div>
+        );
+      })}{" "}
+      <hr></hr>
+      <h2>linkを使わずにrouterでjump(ただしcardはapi取得/refでscro;;）</h2>
+      {ids.map((id) => {
+        return (
+          <div
+            onClick={() => {
+              router.push(`/apiRefCards#${id}`);
+            }}
+          >
+            {id}へJUMP
+          </div>
+        );
+      })}
     </div>
   );
 };

@@ -44,7 +44,7 @@ export default () => {
         );
       })}{" "}
       <hr></hr>
-      <h2>linkを使わずにrouterでjump(ただしcardはapi取得/refでscro;;）</h2>
+      <h2>linkを使わずにrouterでjump(ただしcardはapi取得/refでscroll）</h2>
       {ids.map((id) => {
         return (
           <div

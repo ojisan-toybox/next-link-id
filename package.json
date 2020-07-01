@@ -1,0 +1,24 @@
+{
+  "name": "next-link-id",
+  "version": "1.0.0",
+  "description": "id jump on Next",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ojisan-toybox/next-link-id.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ojisan-toybox/next-link-id/issues"
+  },
+  "homepage": "https://github.com/ojisan-toybox/next-link-id#readme",
+  "dependencies": {
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

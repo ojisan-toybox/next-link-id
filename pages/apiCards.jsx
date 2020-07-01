@@ -4,7 +4,7 @@ export default () => {
   const [cards, setCards] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/api")
+    fetch("/api")
       .then((res) => res.json())
       .then((d) => setCards(d));
   }, []);

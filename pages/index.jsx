@@ -31,7 +31,10 @@ export default () => {
         );
       })}
       <hr></hr>
-      <h2>linkを使わずにrouterでjump(ただしcardはapi取得）</h2>
+      <h2>
+        linkを使わずにrouterでjump(ただしcardはapi取得）
+        <span style={{ color: "red" }}>失敗する</span>
+      </h2>
       {ids.map((id) => {
         return (
           <div

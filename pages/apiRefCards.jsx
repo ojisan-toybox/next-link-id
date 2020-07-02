@@ -41,6 +41,10 @@ const Child = ({ id, isScroll }) => {
         background: "gray",
         margin: "12px",
       }}
-    ></div>
+    >
+      <p style={{ fontSize: "40px", color: "white", textAlign: "center" }}>
+        {id}
+      </p>
+    </div>
   );
 };

@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/ojisan-toybox/next-link-id#readme",
   "dependencies": {
-    "next": "^9.4.4",
+    "next": "^13.0.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }
